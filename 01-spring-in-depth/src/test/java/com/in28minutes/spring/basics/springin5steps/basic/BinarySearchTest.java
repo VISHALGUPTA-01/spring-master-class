@@ -2,12 +2,13 @@ package com.in28minutes.spring.basics.springin5steps.basic;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.in28minutes.spring.basics.springin5steps.SpringIn5StepsBasicApplication;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+import com.in28minutes.spring.basics.springin5steps.SpringIn5StepsBasicApplication;
 
 // Load the context
 @ExtendWith(SpringExtension.class)
